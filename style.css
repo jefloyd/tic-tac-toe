@@ -1,3 +1,7 @@
+body{
+	background: gray;
+}
+
 * {
   margin: 0; 
   padding: 0; 
@@ -12,8 +16,10 @@ h1{
 table { 
   border-collapse: collapse; 
   border-spacing: 0;
-
 }
+
+
+
 
 #board { 
   padding: 0px; 
@@ -28,6 +34,11 @@ table {
   font-family: Helvetica;  
   font-size: 30px; 
   text-align: center; 
+}
+
+button{
+
+
 }
  
 
