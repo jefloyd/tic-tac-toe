@@ -9,32 +9,70 @@ $( ".celldata" ).click(function(){ //this line says that whenever a click is per
 
 	if (counter % 2 == 0) { //this ch
 		$(this).html(x);
+
+		    if($('#1').html() == x && $('#2').html() == x && $('#3').html() == x){
+		    	alert("you win");
+		    }
+		     if($('#4').html() == x && $('#5').html() == x && $('#6').html() == x){
+		    	alert("you win");
+		    }
+		    if($('#7').html() == x && $('#8').html() == x && $('#9').html() == x){
+		    	alert("you win");
+		    }
+		     if($('#1').html() == x && $('#4').html() == x && $('#7').html() == x){
+		    	alert("you win");
+		    }
+		     if($('#2').html() == x && $('#5').html() == x && $('#8').html() == x){
+		    	alert("you win");
+		    }
+		    if($('#3').html() == x && $('#6').html() == x && $('#9').html() == x){
+		    	alert("you win");
+		    }
+		    if($('#1').html() == x && $('#5').html() == x && $('#9').html() == x){
+		    	alert("you win");
+		    }
+		    if($('#3').html() == x && $('#5').html() == x && $('#7').html() == x){
+		    	alert("you win");
+		    }
+
 		counter++;
 	}
+
    	else { 
    		$(this).html(o);
-   		counter++;
+
+	   	if($('#1').html() == o && $('#2').html() == o && $('#3').html() == o){
+	    	alert("you win");
+	    }
+	     if($('#4').html() == o && $('#5').html() == o && $('#6').html() == o){
+	    	alert("you win");
+	    }
+	    if($('#7').html() == o && $('#8').html() == o && $('#9').html() == o){
+	    	alert("you win");
+	    }
+	     if($('#1').html() == o && $('#4').html() == o && $('#7').html() == o){
+	    	alert("you win");
+	    }
+	     if($('#2').html() == o && $('#5').html() == o && $('#8').html() == o){
+	    	alert("you win");
+	    }
+	    if($('#3').html() == o && $('#6').html() == o && $('#9').html() == o){
+	    	alert("you win");
+	    }
+	    if($('#1').html() == o && $('#5').html() == o && $('#9').html() == o){
+	    	alert("you win");
+	    }
+	    if($('#3').html() == o && $('#5').html() == o && $('#7').html() == o){
+	    	alert("you win")
+
+   		
     }
 
-    
-    if($('#1').html() == x && $('#2').html() == x && $('#3').html() == x){
-    	alert("you win");
-    }
-     if($('#4').html() == x && $('#5').html() == x && $('#6').html() == x){
-    	alert("you win");
-    }
-    if($('#7').html() == x && $('#8').html() == x && $('#9').html() == x){
-    	alert("you win");
-    }
+    counter++;
 
-  
+   
+}
 
-
-
-
-
-
-  
 });
 
 
