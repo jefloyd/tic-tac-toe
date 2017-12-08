@@ -3,7 +3,7 @@ $(document).ready(function(){
 var x= "x";
 var o= "o";
 var counter = 0
-
+//added comment to save
 
 $( ".celldata" ).click(function(){ //this line says that whenever a click is performed in class of celldata to run a function
 
